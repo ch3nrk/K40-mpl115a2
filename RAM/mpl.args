@@ -1,0 +1,49 @@
+"./Generated_Code/Vectors_c.obj"
+"./Generated_Code/PE_LDD_c.obj"
+"./Generated_Code/MyUART_c.obj"
+"./Generated_Code/MPL115A2_1_c.obj"
+"./Generated_Code/MPL115A2_0_c.obj"
+"./Generated_Code/KSDK1_c.obj"
+"./Generated_Code/IntI2cLdd2_c.obj"
+"./Generated_Code/IntI2cLdd1_c.obj"
+"./Generated_Code/Cpu_c.obj"
+"./Generated_Code/CZ9_c.obj"
+"./Generated_Code/CZ8_c.obj"
+"./Generated_Code/CZ7_c.obj"
+"./Generated_Code/CZ6_c.obj"
+"./Generated_Code/CZ5_c.obj"
+"./Generated_Code/CZ4_c.obj"
+"./Generated_Code/CZ3_c.obj"
+"./Generated_Code/CZ2_c.obj"
+"./Generated_Code/CZ12_c.obj"
+"./Generated_Code/CZ11_c.obj"
+"./Generated_Code/CZ10_c.obj"
+"./Generated_Code/CZ1_c.obj"
+"./Generated_Code/BitIoLdd9_c.obj"
+"./Generated_Code/BitIoLdd8_c.obj"
+"./Generated_Code/BitIoLdd7_c.obj"
+"./Generated_Code/BitIoLdd6_c.obj"
+"./Generated_Code/BitIoLdd5_c.obj"
+"./Generated_Code/BitIoLdd4_c.obj"
+"./Generated_Code/BitIoLdd3_c.obj"
+"./Generated_Code/BitIoLdd2_c.obj"
+"./Generated_Code/BitIoLdd12_c.obj"
+"./Generated_Code/BitIoLdd11_c.obj"
+"./Generated_Code/BitIoLdd10_c.obj"
+"./Generated_Code/BitIoLdd1_c.obj"
+"./Generated_Code/ASerialLdd1_c.obj"
+"./Sources/main_c.obj"
+"./Sources/dodatki_c.obj"
+"./Sources/MPL115_A2_c.obj"
+"./Sources/Events_c.obj"
+-proc cortex-m4
+-fp soft
+-little
+-msgstyle parseable
+-g3
+-thumb
+-interworking
+-lavender model=c9x ,print=int ,scan=int ,io=raw
+"$(ProjDirPath)/Project_Settings/Linker_Files/ProcessorExpert.lcf"
+-main __thumb_startup
+-L"$(MCUToolsBaseDirEnv)/ARM_EABI_Support/ewl/lib"
